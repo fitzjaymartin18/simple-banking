@@ -1,0 +1,109 @@
+/* Login */
+.login-container {
+    max-width: 400px; /* Set max width for the login form */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Border for the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.btn {
+    width: 100%; /* Full-width button */
+    padding: 10px; /* Padding for the button */
+}
+
+/* Register */
+.register-container {
+    max-width: 400px; /* Set max width for the registration form */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Border for the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.btn {
+    width: 100%; /* Full-width button */
+    padding: 10px; /* Padding for the button */
+}
+
+
+
+/* Index */
+.dashboard-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h2 {
+    font-weight: 600;
+    color: #343a40;
+}
+
+.list-group-item {
+    border-radius: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+    font-weight: 500;
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px); /* Small lift effect on hover */
+    background-color: #f1f1f1;
+}
+
+.text-danger {
+    font-weight: bold;
+}
+
+.list-group-item-action.text-danger:hover {
+    background-color: #f8d7da; /* Soft red hover effect for logout */
+}
+
+/* nav-bar */
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+

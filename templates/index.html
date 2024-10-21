@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="dashboard-card text-center">
+                <h1>Welcome to your dashboard!</h1>
+                <h2>Hello, {{ username }},</h2>
+                <h6>you currenly have ${{ cash|round(2) }} in your account</h6>
+                <!-- Links to other pages -->
+                <div class="list-group">
+                    <a href="/deposit" class="list-group-item list-group-item-action">💰 Deposit Funds</a>
+                    <a href="/withdraw" class="list-group-item list-group-item-action">💵 Withdraw Funds</a>
+                    <a href="/transfer" class="list-group-item list-group-item-action">🔄 Transfer Funds</a>
+                    <a href="/history" class="list-group-item list-group-item-action">📜 Transaction History</a>
+                    <a href="/change_password" class="list-group-item list-group-item-action">🔑 Change Password</a>
+                    <a href="/logout" class="list-group-item list-group-item-action text-danger">🚪 Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

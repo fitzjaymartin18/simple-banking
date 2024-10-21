@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card p-3 shadow" style="max-width: 400px; width: 100%; margin-top: -350px;">
+        <h2 class="text-center mb-2">Create New PIN</h2>
+        <form action="/create_pin" method="post">
+            <div class="mb-2">
+                <label for="pin" class="form-label">Enter new 6-digit PIN</label>
+                <input type="password" class="form-control" id="pin" maxlength="6" name="pin" required>
+            </div>
+            <div class="mb-2">
+                <label for="confirmPin" class="form-label">Confirm your new 6-digit PIN</label>
+                <input type="password" class="form-control" id="confirmPin" name="confirm_pin" maxlength="6" required>
+            </div>
+            <p class="text-danger" id="errorMessage"></p>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success">Create PIN</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

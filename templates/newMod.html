@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Create Account Moderator
+{% endblock %}
+
+{% block main %}
+
+<div class="register-container">
+    <h1>Create Moderator Account</h1>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="alert alert-dismissible fade show {% if 'success' in messages[0] %}alert-success{% else %}alert-danger{% endif %}" role="alert">
+                {{ messages[0][1] }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <!-- Registration Form -->
+    <form action="/newMod" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username (at least 6 characters)" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Enter password (at least 8 characters)" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+</div>
+
+{% endblock %}
