@@ -1,5 +1,5 @@
 # NITRAM BANKING SYSTEM
-#### Video Demo:  <https://youtu.be/U6qj45LQhUI?feature=shared>
+
 #### Description:
 As the developer behind this semi-banking system application, I drew inspiration from finance apps that have become indispensable in managing personal finances. My goal in creating this application was to offer users essential banking features in a secure and user-friendly way, while also adding some unique constraints to enhance security and promote responsible financial behavior. The application allows users to perform critical functions such as withdrawing, depositing, transferring money, viewing transaction histories, and changing their account passwords. However, I wanted to go beyond simply offering these basic functionalities by introducing a layer of control and oversight that would make the system more structured and reliable.
 
@@ -22,4 +22,6 @@ Looking ahead, I see a lot of potential for improving this system. One area that
 Additionally, I plan to move this application to the web in a future course, specifically during the **WEB CS50** program. By turning this into a web-based platform, I can make it more accessible and user-friendly. Users would be able to access their accounts from any device with an internet connection, which would significantly increase the system’s usability. Of course, this shift to the web would also require stronger security measures, such as two-factor authentication and encryption, but I’m excited to tackle these challenges in the next phase of development.
 
 In conclusion, developing this semi-banking system has been a rewarding experience. I wanted to create an application that not only provides essential banking services but also encourages users to manage their finances responsibly. Through features like account creation, withdrawals, deposits, transfers, and password management, I believe this system offers a solid foundation for personal financial management. I’m excited to see how the project evolves in the future as I continue to improve its functionality and security.
+
+P.S. This file is made by ChatGPT, CS50 asked me to write at least 750 words explaining how my application works! So I said WOW! CS50 problem sets are so hard, so I did not bother writing this... just let GPT do the work kek;)
 
